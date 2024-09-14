@@ -1,0 +1,14 @@
+base_package:
+  participants:
+    - el_type: base-geth
+    - el_type: base-reth
+    - el_type: base-erigon
+    - el_type: base-nethermind
+ethereum_package:
+  participants:
+    - el_type: geth
+    - el_type: reth
+  network_params:
+    preset: minimal
+  additional_services:
+    - blockscout
