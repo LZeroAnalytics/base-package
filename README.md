@@ -1,6 +1,6 @@
 # Base Package
 
-This is a [Kurtosis][kurtosis-repo] package developed by [LZero](https://www.lzeroanalytics.com), which allows you to deploy a private Layer 2 Base network on top of the Ethereum Layer 1 testnet.
+This is a [Kurtosis][kurtosis-repo] package developed by [0xBloctopus](https://github.com/0xBloctopus), which allows you to deploy a private Layer 2 Base network on top of the Ethereum Layer 1 testnet.
 
 ## Quickstart
 
@@ -9,7 +9,7 @@ This is a [Kurtosis][kurtosis-repo] package developed by [LZero](https://www.lze
 3. Run the package with default configurations from the command line:
    
    ```bash
-   kurtosis run --enclave my-testnet github.com/LZeroAnalytics/base-package
+   kurtosis run --enclave my-testnet github.com/0xBloctopus/base-package
    ```
 
 #### Run with your own configuration
@@ -17,7 +17,7 @@ This is a [Kurtosis][kurtosis-repo] package developed by [LZero](https://www.lze
 Kurtosis packages are parameterizable, meaning you can customize your network and its behavior to suit your needs by storing parameters in a file that you can pass in at runtime like so:
 
 ```bash
-kurtosis run --enclave my-testnet github.com/LZeroAnalytics/base-package --args-file network_params.yaml
+kurtosis run --enclave my-testnet github.com/0xBloctopus/base-package --args-file network_params.yaml
 ```
 
 Where `network_params.yaml` contains the parameters for your network in your home directory.
